@@ -9,23 +9,45 @@
 /* Begin PBXBuildFile section */
 		6706A93F24ACC6F7003F0D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706A93E24ACC6F7003F0D4A /* AppDelegate.swift */; };
 		6706A94124ACC6F7003F0D4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706A94024ACC6F7003F0D4A /* SceneDelegate.swift */; };
-		6706A94324ACC6F7003F0D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706A94224ACC6F7003F0D4A /* ViewController.swift */; };
 		6706A94624ACC6F7003F0D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6706A94424ACC6F7003F0D4A /* Main.storyboard */; };
 		6706A94924ACC6F7003F0D4A /* AloMobileTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6706A94724ACC6F7003F0D4A /* AloMobileTest.xcdatamodeld */; };
 		6706A94B24ACC6FA003F0D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6706A94A24ACC6FA003F0D4A /* Assets.xcassets */; };
 		6706A94E24ACC6FA003F0D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6706A94C24ACC6FA003F0D4A /* LaunchScreen.storyboard */; };
+		67A8D2C224AF92C9008F61FA /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8D2C124AF92C9008F61FA /* CustomTabBarController.swift */; };
+		67A8D2C424AF9A74008F61FA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8D2C324AF9A74008F61FA /* ProfileView.swift */; };
+		67A8D2C724B0127D008F61FA /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8D2C624B0127D008F61FA /* CustomTabbarView.swift */; };
+		67A8D2C924B022DE008F61FA /* DetailFlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8D2C824B022DE008F61FA /* DetailFlowerView.swift */; };
+		67A8D2CB24B022F9008F61FA /* DetailFlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8D2CA24B022F9008F61FA /* DetailFlowerViewController.swift */; };
+		67AF903D24AF2C06005FB19F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AF903C24AF2C06005FB19F /* HomeViewController.swift */; };
+		67AF903F24AF2C3B005FB19F /* DetailHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AF903E24AF2C3B005FB19F /* DetailHomeViewController.swift */; };
+		67AF904124AF2C48005FB19F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AF904024AF2C48005FB19F /* ProfileViewController.swift */; };
+		67AF904524AF3205005FB19F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AF904424AF3205005FB19F /* HomeView.swift */; };
+		67C3D50424AF148F0084217E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3D50324AF148F0084217E /* UIHelper.swift */; };
+		67C3D50624AF290E0084217E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3D50524AF290E0084217E /* LoginViewController.swift */; };
+		67DF612F24ADEC140009398C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DF612E24ADEC140009398C /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6706A93B24ACC6F7003F0D4A /* AloMobileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloMobileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6706A93E24ACC6F7003F0D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6706A94024ACC6F7003F0D4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6706A94224ACC6F7003F0D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6706A94524ACC6F7003F0D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6706A94824ACC6F7003F0D4A /* AloMobileTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AloMobileTest.xcdatamodel; sourceTree = "<group>"; };
 		6706A94A24ACC6FA003F0D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6706A94D24ACC6FA003F0D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6706A94F24ACC6FA003F0D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A8D2C124AF92C9008F61FA /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		67A8D2C324AF9A74008F61FA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		67A8D2C624B0127D008F61FA /* CustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
+		67A8D2C824B022DE008F61FA /* DetailFlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFlowerView.swift; sourceTree = "<group>"; };
+		67A8D2CA24B022F9008F61FA /* DetailFlowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFlowerViewController.swift; sourceTree = "<group>"; };
+		67AF903C24AF2C06005FB19F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		67AF903E24AF2C3B005FB19F /* DetailHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHomeViewController.swift; sourceTree = "<group>"; };
+		67AF904024AF2C48005FB19F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		67AF904424AF3205005FB19F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		67C3D50324AF148F0084217E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		67C3D50524AF290E0084217E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		67DF612E24ADEC140009398C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = "AloMobileTest/View Models/LoginView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +80,13 @@
 		6706A93D24ACC6F7003F0D4A /* AloMobileTest */ = {
 			isa = PBXGroup;
 			children = (
+				6706A97C24AD91AE003F0D4A /* Models */,
+				6706A97B24AD91AA003F0D4A /* View Models */,
+				6706A97A24AD91A3003F0D4A /* Views */,
+				6706A97D24AD91D3003F0D4A /* Controllers */,
+				6706A97E24AD91E5003F0D4A /* Helper */,
 				6706A93E24ACC6F7003F0D4A /* AppDelegate.swift */,
 				6706A94024ACC6F7003F0D4A /* SceneDelegate.swift */,
-				6706A94224ACC6F7003F0D4A /* ViewController.swift */,
 				6706A94424ACC6F7003F0D4A /* Main.storyboard */,
 				6706A94A24ACC6FA003F0D4A /* Assets.xcassets */,
 				6706A94C24ACC6FA003F0D4A /* LaunchScreen.storyboard */,
@@ -68,6 +94,53 @@
 				6706A94724ACC6F7003F0D4A /* AloMobileTest.xcdatamodeld */,
 			);
 			path = AloMobileTest;
+			sourceTree = "<group>";
+		};
+		6706A97A24AD91A3003F0D4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67DF612E24ADEC140009398C /* LoginView.swift */,
+				67AF904424AF3205005FB19F /* HomeView.swift */,
+				67A8D2C324AF9A74008F61FA /* ProfileView.swift */,
+				67A8D2C624B0127D008F61FA /* CustomTabbarView.swift */,
+				67A8D2C824B022DE008F61FA /* DetailFlowerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6706A97B24AD91AA003F0D4A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		6706A97C24AD91AE003F0D4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6706A97D24AD91D3003F0D4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67C3D50524AF290E0084217E /* LoginViewController.swift */,
+				67AF903C24AF2C06005FB19F /* HomeViewController.swift */,
+				67AF903E24AF2C3B005FB19F /* DetailHomeViewController.swift */,
+				67AF904024AF2C48005FB19F /* ProfileViewController.swift */,
+				67A8D2C124AF92C9008F61FA /* CustomTabBarController.swift */,
+				67A8D2CA24B022F9008F61FA /* DetailFlowerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6706A97E24AD91E5003F0D4A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				67C3D50324AF148F0084217E /* UIHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +214,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6706A94324ACC6F7003F0D4A /* ViewController.swift in Sources */,
+				67C3D50624AF290E0084217E /* LoginViewController.swift in Sources */,
 				6706A93F24ACC6F7003F0D4A /* AppDelegate.swift in Sources */,
+				67A8D2C724B0127D008F61FA /* CustomTabbarView.swift in Sources */,
 				6706A94924ACC6F7003F0D4A /* AloMobileTest.xcdatamodeld in Sources */,
+				67A8D2CB24B022F9008F61FA /* DetailFlowerViewController.swift in Sources */,
+				67DF612F24ADEC140009398C /* LoginView.swift in Sources */,
+				67A8D2C424AF9A74008F61FA /* ProfileView.swift in Sources */,
+				67AF903F24AF2C3B005FB19F /* DetailHomeViewController.swift in Sources */,
+				67A8D2C224AF92C9008F61FA /* CustomTabBarController.swift in Sources */,
+				67AF904524AF3205005FB19F /* HomeView.swift in Sources */,
 				6706A94124ACC6F7003F0D4A /* SceneDelegate.swift in Sources */,
+				67A8D2C924B022DE008F61FA /* DetailFlowerView.swift in Sources */,
+				67AF904124AF2C48005FB19F /* ProfileViewController.swift in Sources */,
+				67AF903D24AF2C06005FB19F /* HomeViewController.swift in Sources */,
+				67C3D50424AF148F0084217E /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55CQAZ789D;
 				INFOPLIST_FILE = AloMobileTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55CQAZ789D;
 				INFOPLIST_FILE = AloMobileTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
